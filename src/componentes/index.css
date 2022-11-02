@@ -1,0 +1,105 @@
+
+* { 
+	box-sizing: border-box; overflow: hidden;
+	 margin: 0; 
+	 padding: 0; 
+}
+
+body, html { 
+	font-family: sans-serif; height: 100%;
+ }
+
+
+:root {
+  --cor-button: #f0f0f0;
+  --border-button: solid 1px rgb(194, 194, 194);
+
+}
+
+
+#root { 
+  height: 100%; 
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  text-align: center; 
+  color: #fff; 
+  background: linear-gradient(to left, #ff207a, #dd1fff);
+}
+
+
+p{
+	display: flex;
+	margin-top: 550px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 2px 2px black;
+}
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.calculadora {
+	width: 300px;
+	position: absolute;
+	background-color: rgb(255, 255, 3);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 50px;
+	padding: 15px;
+	border-top: 2px solid #c1c1c1;
+	border-right: 2px solid #c1c1c1;
+	border-bottom: 2px solid #181818;
+	border-left: 2px solid #181818;
+
+}
+
+.display { 
+	background-color: #fff;
+	width: 207px;
+	height: 50px;
+	margin: 15px auto;
+	border-top: 3px solid #c1c1c1;
+	border-right: 3px solid #c1c1c1;
+	border-bottom: 3px solid #fff;
+	border-left: 3px solid #fff;
+	box-shadow: inset 0px 0px 10px #030303, inset 0px -20px 1px rgba(150, 150, 150, .2);
+	font-size: 28px;
+	color: black;
+	text-align: right;
+	padding: 0 10px;
+	border-radius: 15px;
+}
+
+
+
+.button {
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	cursor: pointer;
+	margin: 3px;
+	background-color: rgb(25,25,25);
+	border-radius: 30px;
+	color: #fff;
+	border-top: 1px solid #c1c1c1;
+	border-right: 1px solid #c1c1c1;
+	border-bottom: 1px solid #181818;
+	border-left: 1px solid #181818;
+	box-shadow: 0px 0px 2px #030303, inset 0px -5px 1px #2e2e2e;
+}
+.button:hover{
+	background-color: #2e2e2e;
+}
+.button:active { 
+  background-color: #2e2e2e;
+ }
+ 
+.span-2 { 
+	width: 160px;
+}
+
+
